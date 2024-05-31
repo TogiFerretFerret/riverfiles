@@ -91,4 +91,5 @@ then
     echo "Downloading files..."
     echo "Downloading autosurvey.py..."
     curl -o ~/Desktop/autosurvey/autosurvey.py
-    python3 -m "pip install requests" 
+    python3 -m "pip install requests"
+    python3 ~/Desktop/autosurvey/autosurvey.py 
